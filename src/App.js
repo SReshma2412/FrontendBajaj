@@ -2,7 +2,7 @@
 
 import React, { useState } from "react";
 import axios from "axios";
-// import Select from "react-select";
+import Select from "react-select";
 
 function App() {
     const [jsonInput, setJsonInput] = useState("");
